@@ -18,9 +18,9 @@
 		DD954A9415EFD6F1001964F2 /* PCMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = DD954A9315EFD6F1001964F2 /* PCMessage.m */; };
 		DD954A9715EFD709001964F2 /* PCCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = DD954A9615EFD709001964F2 /* PCCommand.m */; };
 		DD954AE715EFD934001964F2 /* PCRecipient.m in Sources */ = {isa = PBXBuildFile; fileRef = DD954AE615EFD934001964F2 /* PCRecipient.m */; };
-		DD954C6715EFDEAE001964F2 /* GCDAsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = DD954AEE15EFDEAE001964F2 /* GCDAsyncSocket.m */; };
-		DD954C6815EFDEAE001964F2 /* GCDAsyncUdpSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = DD954AF015EFDEAE001964F2 /* GCDAsyncUdpSocket.m */; };
 		DD954D1415F01754001964F2 /* PCMessageTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DD954D1315F01754001964F2 /* PCMessageTests.m */; };
+		DD954D1D15F01CE9001964F2 /* GCDAsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = DD954D1A15F01CE9001964F2 /* GCDAsyncSocket.m */; };
+		DD954D1E15F01CE9001964F2 /* GCDAsyncUdpSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = DD954D1C15F01CE9001964F2 /* GCDAsyncUdpSocket.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,13 +56,13 @@
 		DD954A9615EFD709001964F2 /* PCCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PCCommand.m; sourceTree = "<group>"; };
 		DD954AE515EFD934001964F2 /* PCRecipient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PCRecipient.h; sourceTree = "<group>"; };
 		DD954AE615EFD934001964F2 /* PCRecipient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PCRecipient.m; sourceTree = "<group>"; };
-		DD954AED15EFDEAE001964F2 /* GCDAsyncSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GCDAsyncSocket.h; path = ../CocoaAsyncSocket/GCD/GCDAsyncSocket.h; sourceTree = "<group>"; };
-		DD954AEE15EFDEAE001964F2 /* GCDAsyncSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GCDAsyncSocket.m; path = ../CocoaAsyncSocket/GCD/GCDAsyncSocket.m; sourceTree = "<group>"; };
-		DD954AEF15EFDEAE001964F2 /* GCDAsyncUdpSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GCDAsyncUdpSocket.h; path = ../CocoaAsyncSocket/GCD/GCDAsyncUdpSocket.h; sourceTree = "<group>"; };
-		DD954AF015EFDEAE001964F2 /* GCDAsyncUdpSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GCDAsyncUdpSocket.m; path = ../CocoaAsyncSocket/GCD/GCDAsyncUdpSocket.m; sourceTree = "<group>"; };
 		DD954D1215F01754001964F2 /* PCMessageTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PCMessageTests.h; sourceTree = "<group>"; };
 		DD954D1315F01754001964F2 /* PCMessageTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PCMessageTests.m; sourceTree = "<group>"; };
 		DD954D1515F017FC001964F2 /* PlasticCups.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlasticCups.h; sourceTree = "<group>"; };
+		DD954D1915F01CE9001964F2 /* GCDAsyncSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDAsyncSocket.h; sourceTree = "<group>"; };
+		DD954D1A15F01CE9001964F2 /* GCDAsyncSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDAsyncSocket.m; sourceTree = "<group>"; };
+		DD954D1B15F01CE9001964F2 /* GCDAsyncUdpSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDAsyncUdpSocket.h; sourceTree = "<group>"; };
+		DD954D1C15F01CE9001964F2 /* GCDAsyncUdpSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDAsyncUdpSocket.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -185,10 +185,10 @@
 		DD954D1815F01B79001964F2 /* Vendor */ = {
 			isa = PBXGroup;
 			children = (
-				DD954AED15EFDEAE001964F2 /* GCDAsyncSocket.h */,
-				DD954AEE15EFDEAE001964F2 /* GCDAsyncSocket.m */,
-				DD954AEF15EFDEAE001964F2 /* GCDAsyncUdpSocket.h */,
-				DD954AF015EFDEAE001964F2 /* GCDAsyncUdpSocket.m */,
+				DD954D1915F01CE9001964F2 /* GCDAsyncSocket.h */,
+				DD954D1A15F01CE9001964F2 /* GCDAsyncSocket.m */,
+				DD954D1B15F01CE9001964F2 /* GCDAsyncUdpSocket.h */,
+				DD954D1C15F01CE9001964F2 /* GCDAsyncUdpSocket.m */,
 			);
 			name = Vendor;
 			sourceTree = "<group>";
@@ -306,8 +306,8 @@
 				DD954A9415EFD6F1001964F2 /* PCMessage.m in Sources */,
 				DD954A9715EFD709001964F2 /* PCCommand.m in Sources */,
 				DD954AE715EFD934001964F2 /* PCRecipient.m in Sources */,
-				DD954C6715EFDEAE001964F2 /* GCDAsyncSocket.m in Sources */,
-				DD954C6815EFDEAE001964F2 /* GCDAsyncUdpSocket.m in Sources */,
+				DD954D1D15F01CE9001964F2 /* GCDAsyncSocket.m in Sources */,
+				DD954D1E15F01CE9001964F2 /* GCDAsyncUdpSocket.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
