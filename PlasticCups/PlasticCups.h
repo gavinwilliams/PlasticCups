@@ -1,5 +1,5 @@
 //
-//  PCRecipient.h
+//  PlasticCups.h
 //  PlasticCups
 //
 //  Created by Gavin Williams on 30/08/2012.
@@ -7,10 +7,6 @@
 //
 
 #import <Foundation/Foundation.h>
-
-@interface PCRecipient : NSObject
-
-@property (nonatomic, strong) NSString *host;
-@property (nonatomic, strong) NSNumber *port;
-
-@end
+#import "PCMessage.h"
+#import "PCCommand.h"
+#import "PCRecipient.h"

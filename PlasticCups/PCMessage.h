@@ -8,6 +8,7 @@
 
 #import <Foundation/Foundation.h>
 #import "PCCommand.h"
+#import "PCRecipient.h"
 #import "GCDAsyncSocket.h"
 
 @interface PCMessage : NSObject
@@ -18,6 +19,7 @@
 
 + (PCMessage *) decode: (NSData *) message error: (NSError **) error;
 - (NSData *) encode;
-- (void) addRecipient: (GCDAsyncSocket *) recipient;
+- (void) addRecipient: (PCRecipient *) recipient;
+- (void) removeRecipient: (PCRecipient *) recipient;
 
 @end

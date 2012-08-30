@@ -10,8 +10,8 @@
 
 @implementation PCMessage
 
-@synthesize command;
-@synthesize recipients;
+@synthesize command = _command;
+@synthesize recipients = _recipients;
 
 + (PCMessage *) decode: (NSData *) message error:(NSError *__autoreleasing *)error {
 
@@ -36,14 +36,26 @@
 	
 	NSMutableArray *recipients = [NSMutableArray array];
 	
-	for(GCDAsyncSocket *socket in self.recipients){
-		[recipients addObject:socket.connectedHost]
+	for(PCRecipient *recipient in self.recipients){
+		NSDictionary *recipientDict = [NSDictionary dictionaryWithObjectsAndKeys:
+									recipient.host, @"host",
+									recipient.port, @"port",
+									   nil];
+		[recipients addObject:recipientDict];
 	}
+	
+	[message setValue:recipients forKey:@"recipients"];
+	
+	return [NSJSONSerialization dataWithJSONObject:message options:NSJSONReadingMutableContainers error:nil];
 	
 }
 
-- (void) addRecipient:(GCDAsyncSocket *)recipient {
+- (void) addRecipient:(PCRecipient *)recipient {
 	[self.recipients addObject:recipient];
+}
+
+- (void) removeRecipient:(PCRecipient *)recipient {
+	[self.recipients removeObject:recipient];
 }
 
 @end
