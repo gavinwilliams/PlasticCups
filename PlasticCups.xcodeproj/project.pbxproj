@@ -1,0 +1,475 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DD954A5B15EFD6B3001964F2 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD954A5A15EFD6B3001964F2 /* Cocoa.framework */; };
+		DD954A6515EFD6B3001964F2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DD954A6315EFD6B3001964F2 /* InfoPlist.strings */; };
+		DD954A6715EFD6B3001964F2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DD954A6615EFD6B3001964F2 /* main.m */; };
+		DD954A6B15EFD6B3001964F2 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = DD954A6915EFD6B3001964F2 /* Credits.rtf */; };
+		DD954A6E15EFD6B3001964F2 /* PCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DD954A6D15EFD6B3001964F2 /* PCAppDelegate.m */; };
+		DD954A7115EFD6B3001964F2 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = DD954A6F15EFD6B3001964F2 /* MainMenu.xib */; };
+		DD954A7415EFD6B3001964F2 /* PlasticCups.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DD954A7215EFD6B3001964F2 /* PlasticCups.xcdatamodeld */; };
+		DD954A7C15EFD6B3001964F2 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD954A7B15EFD6B3001964F2 /* SenTestingKit.framework */; };
+		DD954A7D15EFD6B3001964F2 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD954A5A15EFD6B3001964F2 /* Cocoa.framework */; };
+		DD954A8515EFD6B3001964F2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DD954A8315EFD6B3001964F2 /* InfoPlist.strings */; };
+		DD954A8815EFD6B3001964F2 /* PlasticCupsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DD954A8715EFD6B3001964F2 /* PlasticCupsTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DD954A7E15EFD6B3001964F2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DD954A4D15EFD6B3001964F2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DD954A5515EFD6B3001964F2;
+			remoteInfo = PlasticCups;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DD954A5615EFD6B3001964F2 /* PlasticCups.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlasticCups.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD954A5A15EFD6B3001964F2 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		DD954A5D15EFD6B3001964F2 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		DD954A5E15EFD6B3001964F2 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		DD954A5F15EFD6B3001964F2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DD954A6215EFD6B3001964F2 /* PlasticCups-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PlasticCups-Info.plist"; sourceTree = "<group>"; };
+		DD954A6415EFD6B3001964F2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DD954A6615EFD6B3001964F2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DD954A6815EFD6B3001964F2 /* PlasticCups-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PlasticCups-Prefix.pch"; sourceTree = "<group>"; };
+		DD954A6A15EFD6B3001964F2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		DD954A6C15EFD6B3001964F2 /* PCAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PCAppDelegate.h; sourceTree = "<group>"; };
+		DD954A6D15EFD6B3001964F2 /* PCAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PCAppDelegate.m; sourceTree = "<group>"; };
+		DD954A7015EFD6B3001964F2 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		DD954A7315EFD6B3001964F2 /* PlasticCups.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PlasticCups.xcdatamodel; sourceTree = "<group>"; };
+		DD954A7A15EFD6B3001964F2 /* PlasticCupsTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlasticCupsTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD954A7B15EFD6B3001964F2 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		DD954A8215EFD6B3001964F2 /* PlasticCupsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PlasticCupsTests-Info.plist"; sourceTree = "<group>"; };
+		DD954A8415EFD6B3001964F2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DD954A8615EFD6B3001964F2 /* PlasticCupsTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PlasticCupsTests.h; sourceTree = "<group>"; };
+		DD954A8715EFD6B3001964F2 /* PlasticCupsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PlasticCupsTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DD954A5315EFD6B3001964F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD954A5B15EFD6B3001964F2 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD954A7615EFD6B3001964F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD954A7C15EFD6B3001964F2 /* SenTestingKit.framework in Frameworks */,
+				DD954A7D15EFD6B3001964F2 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DD954A4B15EFD6B3001964F2 = {
+			isa = PBXGroup;
+			children = (
+				DD954A6015EFD6B3001964F2 /* PlasticCups */,
+				DD954A8015EFD6B3001964F2 /* PlasticCupsTests */,
+				DD954A5915EFD6B3001964F2 /* Frameworks */,
+				DD954A5715EFD6B3001964F2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DD954A5715EFD6B3001964F2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DD954A5615EFD6B3001964F2 /* PlasticCups.app */,
+				DD954A7A15EFD6B3001964F2 /* PlasticCupsTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DD954A5915EFD6B3001964F2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DD954A5A15EFD6B3001964F2 /* Cocoa.framework */,
+				DD954A7B15EFD6B3001964F2 /* SenTestingKit.framework */,
+				DD954A5C15EFD6B3001964F2 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DD954A5C15EFD6B3001964F2 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DD954A5D15EFD6B3001964F2 /* AppKit.framework */,
+				DD954A5E15EFD6B3001964F2 /* CoreData.framework */,
+				DD954A5F15EFD6B3001964F2 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		DD954A6015EFD6B3001964F2 /* PlasticCups */ = {
+			isa = PBXGroup;
+			children = (
+				DD954A6C15EFD6B3001964F2 /* PCAppDelegate.h */,
+				DD954A6D15EFD6B3001964F2 /* PCAppDelegate.m */,
+				DD954A6F15EFD6B3001964F2 /* MainMenu.xib */,
+				DD954A7215EFD6B3001964F2 /* PlasticCups.xcdatamodeld */,
+				DD954A6115EFD6B3001964F2 /* Supporting Files */,
+			);
+			path = PlasticCups;
+			sourceTree = "<group>";
+		};
+		DD954A6115EFD6B3001964F2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DD954A6215EFD6B3001964F2 /* PlasticCups-Info.plist */,
+				DD954A6315EFD6B3001964F2 /* InfoPlist.strings */,
+				DD954A6615EFD6B3001964F2 /* main.m */,
+				DD954A6815EFD6B3001964F2 /* PlasticCups-Prefix.pch */,
+				DD954A6915EFD6B3001964F2 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DD954A8015EFD6B3001964F2 /* PlasticCupsTests */ = {
+			isa = PBXGroup;
+			children = (
+				DD954A8615EFD6B3001964F2 /* PlasticCupsTests.h */,
+				DD954A8715EFD6B3001964F2 /* PlasticCupsTests.m */,
+				DD954A8115EFD6B3001964F2 /* Supporting Files */,
+			);
+			path = PlasticCupsTests;
+			sourceTree = "<group>";
+		};
+		DD954A8115EFD6B3001964F2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DD954A8215EFD6B3001964F2 /* PlasticCupsTests-Info.plist */,
+				DD954A8315EFD6B3001964F2 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DD954A5515EFD6B3001964F2 /* PlasticCups */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD954A8B15EFD6B3001964F2 /* Build configuration list for PBXNativeTarget "PlasticCups" */;
+			buildPhases = (
+				DD954A5215EFD6B3001964F2 /* Sources */,
+				DD954A5315EFD6B3001964F2 /* Frameworks */,
+				DD954A5415EFD6B3001964F2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PlasticCups;
+			productName = PlasticCups;
+			productReference = DD954A5615EFD6B3001964F2 /* PlasticCups.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DD954A7915EFD6B3001964F2 /* PlasticCupsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD954A8E15EFD6B3001964F2 /* Build configuration list for PBXNativeTarget "PlasticCupsTests" */;
+			buildPhases = (
+				DD954A7515EFD6B3001964F2 /* Sources */,
+				DD954A7615EFD6B3001964F2 /* Frameworks */,
+				DD954A7715EFD6B3001964F2 /* Resources */,
+				DD954A7815EFD6B3001964F2 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DD954A7F15EFD6B3001964F2 /* PBXTargetDependency */,
+			);
+			name = PlasticCupsTests;
+			productName = PlasticCupsTests;
+			productReference = DD954A7A15EFD6B3001964F2 /* PlasticCupsTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DD954A4D15EFD6B3001964F2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = PC;
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "Gavin Williams";
+			};
+			buildConfigurationList = DD954A5015EFD6B3001964F2 /* Build configuration list for PBXProject "PlasticCups" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DD954A4B15EFD6B3001964F2;
+			productRefGroup = DD954A5715EFD6B3001964F2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DD954A5515EFD6B3001964F2 /* PlasticCups */,
+				DD954A7915EFD6B3001964F2 /* PlasticCupsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DD954A5415EFD6B3001964F2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD954A6515EFD6B3001964F2 /* InfoPlist.strings in Resources */,
+				DD954A6B15EFD6B3001964F2 /* Credits.rtf in Resources */,
+				DD954A7115EFD6B3001964F2 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD954A7715EFD6B3001964F2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD954A8515EFD6B3001964F2 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		DD954A7815EFD6B3001964F2 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DD954A5215EFD6B3001964F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD954A6715EFD6B3001964F2 /* main.m in Sources */,
+				DD954A6E15EFD6B3001964F2 /* PCAppDelegate.m in Sources */,
+				DD954A7415EFD6B3001964F2 /* PlasticCups.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD954A7515EFD6B3001964F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD954A8815EFD6B3001964F2 /* PlasticCupsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DD954A7F15EFD6B3001964F2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DD954A5515EFD6B3001964F2 /* PlasticCups */;
+			targetProxy = DD954A7E15EFD6B3001964F2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DD954A6315EFD6B3001964F2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD954A6415EFD6B3001964F2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		DD954A6915EFD6B3001964F2 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD954A6A15EFD6B3001964F2 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		DD954A6F15EFD6B3001964F2 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD954A7015EFD6B3001964F2 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		DD954A8315EFD6B3001964F2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD954A8415EFD6B3001964F2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DD954A8915EFD6B3001964F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		DD954A8A15EFD6B3001964F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		DD954A8C15EFD6B3001964F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PlasticCups/PlasticCups-Prefix.pch";
+				INFOPLIST_FILE = "PlasticCups/PlasticCups-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		DD954A8D15EFD6B3001964F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PlasticCups/PlasticCups-Prefix.pch";
+				INFOPLIST_FILE = "PlasticCups/PlasticCups-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		DD954A8F15EFD6B3001964F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PlasticCups.app/Contents/MacOS/PlasticCups";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PlasticCups/PlasticCups-Prefix.pch";
+				INFOPLIST_FILE = "PlasticCupsTests/PlasticCupsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		DD954A9015EFD6B3001964F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PlasticCups.app/Contents/MacOS/PlasticCups";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PlasticCups/PlasticCups-Prefix.pch";
+				INFOPLIST_FILE = "PlasticCupsTests/PlasticCupsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DD954A5015EFD6B3001964F2 /* Build configuration list for PBXProject "PlasticCups" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD954A8915EFD6B3001964F2 /* Debug */,
+				DD954A8A15EFD6B3001964F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD954A8B15EFD6B3001964F2 /* Build configuration list for PBXNativeTarget "PlasticCups" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD954A8C15EFD6B3001964F2 /* Debug */,
+				DD954A8D15EFD6B3001964F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DD954A8E15EFD6B3001964F2 /* Build configuration list for PBXNativeTarget "PlasticCupsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD954A8F15EFD6B3001964F2 /* Debug */,
+				DD954A9015EFD6B3001964F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		DD954A7215EFD6B3001964F2 /* PlasticCups.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				DD954A7315EFD6B3001964F2 /* PlasticCups.xcdatamodel */,
+			);
+			currentVersion = DD954A7315EFD6B3001964F2 /* PlasticCups.xcdatamodel */;
+			path = PlasticCups.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = DD954A4D15EFD6B3001964F2 /* Project object */;
+}
